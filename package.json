@@ -1,0 +1,20 @@
+{
+  "name": "topiary_garden",
+  "version": "1.0.0",
+  "description": "Foundation for building topiaries.",
+  "main": "./app/server/server.js",
+  "scripts": {
+    "local": "nodemon ./app/server/server.js localhost 8080",
+    "watch": "scss --watch ./app/ui/public/scss/:./app/ui/public/dist/styles/styles.scss"
+  },
+  "author": "The Topiary Wolf",
+  "license": "MIT",
+  "dependencies": {
+    "ejs": "^2.5.7",
+    "express": "^4.16.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.12.1",
+    "scss": "^0.2.4"
+  }
+}
