@@ -5,7 +5,7 @@
   "main": "./app/server/server.js",
   "scripts": {
     "local": "nodemon ./app/server/server.js localhost 8080",
-    "watch": "scss --watch ./app/ui/public/scss/:./app/ui/public/dist/styles/styles.scss"
+    "watch": "scss --watch ./app/ui/public/scss/:./app/ui/public/dist/styles/"
   },
   "author": "The Topiary Wolf",
   "license": "MIT",
